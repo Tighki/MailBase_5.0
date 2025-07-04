@@ -1,0 +1,5 @@
+hosts = database-container:3306
+user = postfix
+password = postfix_pass
+dbname = postfix
+query = SELECT goto FROM alias,alias_domain WHERE alias_domain.alias_domain = '%d' and alias.address = CONCAT('%u', '@', alias_domain.target_domain) AND alias.active = 1 

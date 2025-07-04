@@ -1,0 +1,5 @@
+hosts = database-container:3306
+user = postfix
+password = postfix_pass
+dbname = postfix
+query = SELECT domain FROM domain WHERE domain='%s' AND backupmx = '0' AND active = '1' 

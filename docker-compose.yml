@@ -1,0 +1,216 @@
+services:
+  # PHP Application Service
+  php:
+    container_name: php
+    build:
+      # Build Dockerfile context on the current directory
+      context: .
+      dockerfile: Dockerfile 
+    volumes:
+      # local ./src directory contains PHP code
+      # Mount it to the to /var/www/html on the container
+      - ./src:/var/www/html
+      - ./apache/php.ini:/usr/local/etc/php/php.ini
+    depends_on:
+      # Ensure MySQL is started before PHP
+      - database-container
+    networks:
+      - web
+    ports:
+      - "80:80"
+    restart: always
+
+  # Database Container Service
+  database-container:
+    container_name: mysql
+    # Get MySQL image from Docker Hub
+    image: mysql:5.7
+    volumes:
+      # local ./src directory contains PHP code
+      # Mount it to the to /var/www/html on the container
+      - ./mysql/my.cnf:/etc/my.cnf:ro
+      - ./mysql/data:/var/lib/mysql:rw
+      - ./mysql/init:/docker-entrypoint-initdb.d
+    environment:
+      # Set the MySQL root password
+      MYSQL_ROOT_PASSWORD: php_mysql_pass
+      # Create your MySQL database user
+      MYSQL_USER: php_test_user
+      # Create a sample MySQL database
+      MYSQL_DATABASE: php_mysql_db
+      #Add the password for the MySQL user
+      MYSQL_PASSWORD: php_user_pass
+    ports:
+      # MySQL port
+      - "3306:3306"
+    networks:
+      - web
+    restart: always
+
+  # PhpMyAdmin Service
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin:latest
+    links:
+      # Link the MySQL service to allow phpmyadmin access to the MySQL server
+      - database-container
+    ports:
+      - "82:80"
+    networks:
+      - web
+    environment:
+    # PhpMyAdmin host is a MySQL Database container
+      PMA_HOST: database-container 
+      # Set the MySQL root password to open PhpMyAdmin on the web
+      MYSQL_ROOT_PASSWORD: php_mysql_pass
+    restart: always
+    
+  openldap:
+    image: osixia/openldap:latest
+    container_name: openldap
+    hostname: openldap
+    ports: 
+      - "389:389"
+      - "636:636"
+    volumes:
+      - ./data/certificates:/container/service/slapd/assets/certs
+      - ./data/slapd/database:/var/lib/ldap
+      - ./data/slapd/config:/etc/ldap/slapd.d
+    environment: 
+      - LDAP_ORGANISATION=ramhlocal
+      - LDAP_DOMAIN=ramhlocal.com
+      - LDAP_ADMIN_USERNAME=admin
+      - LDAP_ADMIN_PASSWORD=admin_pass
+      - LDAP_CONFIG_PASSWORD=config_pass
+      - "LDAP_BASE_DN=dc=ramhlocal,dc=com"
+      - LDAP_TLS_CRT_FILENAME=server.crt
+      - LDAP_TLS_KEY_FILENAME=server.key
+      - LDAP_TLS_CA_CRT_FILENAME=ramhlocal.com.ca.crt
+      - LDAP_READONLY_USER=true
+      - LDAP_READONLY_USER_USERNAME=user-ro
+      - LDAP_READONLY_USER_PASSWORD=ro_pass
+    networks:
+      - web
+    restart: always
+  
+  phpldapadmin:
+    image: osixia/phpldapadmin:latest
+    container_name: phpldapadmin
+    hostname: phpldapadmin
+    ports: 
+      - "81:80"
+    environment: 
+      - PHPLDAPADMIN_LDAP_HOSTS=openldap
+      - PHPLDAPADMIN_HTTPS=false
+    depends_on:
+      - openldap
+    networks:
+      - web
+    restart: always
+
+  # Postfix Mail Server
+  postfix:
+    image: postfix:custom
+    build:
+      context: ./mail/postfix
+      dockerfile: Dockerfile
+    container_name: postfix
+    hostname: mail.fltrktv.ru
+    volumes:
+      - ./mail/postfix/main.cf:/etc/postfix/main.cf
+      - ./mail/postfix/master.cf:/etc/postfix/master.cf
+      - ./mail/postfix/mysql:/etc/postfix/mysql
+      - ./mail/ssl:/etc/postfix/certs
+      - ./mail/vmail:/mnt/mail
+    environment:
+      - MYSQL_HOST=database-container
+      - MYSQL_USER=postfix
+      - MYSQL_PASSWORD=postfix_pass
+      - MYSQL_DATABASE=postfix
+    depends_on:
+      - database-container
+      - dovecot
+    networks:
+      - web
+    ports:
+      - "25:25"
+      - "587:587"
+      - "465:465"
+    restart: always
+
+  # Dovecot IMAP Server
+  dovecot:
+    image: dovecot:custom
+    build:
+      context: ./mail/dovecot
+      dockerfile: Dockerfile
+    container_name: dovecot
+    hostname: mail.fltrktv.ru
+    volumes:
+      - ./mail/dovecot/dovecot.conf:/etc/dovecot/dovecot.conf
+      - ./mail/dovecot/dovecot-mysql.conf:/etc/dovecot/dovecot-mysql.conf
+      - ./mail/ssl:/etc/postfix/certs
+      - ./mail/vmail:/mnt/mail
+      - ./mail/dovecot/logs:/var/log/dovecot
+    environment:
+      - MYSQL_HOST=database-container
+      - MYSQL_USER=postfix
+      - MYSQL_PASSWORD=postfix_pass
+      - MYSQL_DATABASE=postfix
+    depends_on:
+      - database-container
+    networks:
+      - web
+    ports:
+      - "143:143"
+      - "993:993"
+      - "110:110"
+      - "995:995"
+      - "4190:4190"
+    restart: always
+
+  # Postfixadmin Web Interface  
+  postfixadmin:
+    image: hardware/postfixadmin:latest
+    container_name: postfixadmin
+    environment:
+      - DBHOST=database-container
+      - DBUSER=postfix
+      - DBPASS=postfix_pass
+      - DBNAME=postfix
+    depends_on:
+      - database-container
+    networks:
+      - web
+    ports:
+      - "8080:8888"
+    restart: always
+  # nginx:
+  #   container_name: nginx
+  #   image: nginx:1.11
+  #   restart: always
+  #   depends_on:
+  #     - php
+  #   networks:
+  #     - web
+  #   ports:
+  #     - 80:80
+  #     - 443:443
+  #   volumes:
+  #     - ./certbot/conf:/etc/nginx/ssl
+  #     - ./nginx/conf:/etc/nginx/conf.d
+  #     - ./certbot/data:/var/www/html
+  # certbot:
+  #   container_name: certbot
+  #   image: certbot/certbot:latest
+  #   command: certonly --non-interactive --force-renewal --webroot --webroot-path=/var/www/html --email gusarov.as@fltrktv.ru --agree-tos --no-eff-email -d fltrktv.ru -d www.fltrktv.ru
+  #   networks:
+  #     - web
+  #   volumes:
+  #     - ./certbot/conf:/etc/letsencrypt
+  #     - ./certbot/logs:/var/log/letsencrypt
+  #     - ./certbot/data:/var/www/html
+
+networks:
+  web:
+    driver: bridge

@@ -1,0 +1,5 @@
+hosts = database-container:3306
+user = postfix
+password = postfix_pass
+dbname = postfix
+query = SELECT maildir FROM mailbox WHERE username='%s' AND active = '1' 
