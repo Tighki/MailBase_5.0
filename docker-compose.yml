@@ -1,7 +1,7 @@
 services:
-  # PHP Application Service
-  php:
-    container_name: php
+  # Roundcube Application Service
+  roundcube:
+    container_name: roundcube
     build:
       # Build Dockerfile context on the current directory
       context: .
@@ -24,22 +24,22 @@ services:
   database-container:
     container_name: mysql
     # Get MySQL image from Docker Hub
-    image: mysql:5.7
+    image: mysql:8.0
     volumes:
       # local ./src directory contains PHP code
       # Mount it to the to /var/www/html on the container
-      - ./mysql/my.cnf:/etc/my.cnf:ro
+      #- ./mysql/my.cnf:/etc/my.cnf:ro
       - ./mysql/data:/var/lib/mysql:rw
-      - ./mysql/init:/docker-entrypoint-initdb.d
+        #    - ./mysql/init:/docker-entrypoint-initdb.d
     environment:
       # Set the MySQL root password
       MYSQL_ROOT_PASSWORD: php_mysql_pass
       # Create your MySQL database user
-      MYSQL_USER: php_test_user
+      MYSQL_USER: postfix
       # Create a sample MySQL database
-      MYSQL_DATABASE: php_mysql_db
+      MYSQL_DATABASE: postfix
       #Add the password for the MySQL user
-      MYSQL_PASSWORD: php_user_pass
+      MYSQL_PASSWORD: postfix_pass
     ports:
       # MySQL port
       - "3306:3306"

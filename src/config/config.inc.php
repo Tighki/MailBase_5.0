@@ -16,7 +16,7 @@
 //       for Postgres: application_name, sslmode, sslcert, sslkey, sslrootcert, sslcrl, sslcompression, service.
 //       e.g. 'mysql://roundcube:@localhost/roundcubemail?verify_server_cert=false'
 // $config['db_dsnw'] = 'mysql://root:php_mysql_pass@database-container/roundcube';
-$config['db_dsnw'] = 'sqlite:////opt/sqlite.db?mode=0646';
+$config['db_dsnw'] = 'mysql://postfix:postfix_pass@database-container/postfix';
 // ----------------------------------
 // IMAP
 // ----------------------------------
@@ -37,7 +37,7 @@ $config['db_dsnw'] = 'sqlite:////opt/sqlite.db?mode=0646';
 // $config['default_host'] = '185.120.59.214';
 
 // ----------------------------------
-// SMTP
+// SMT
 // ----------------------------------
 // SMTP server host (for sending mails).
 // Enter hostname with prefix ssl:// to use Implicit TLS, or use
