@@ -5416,3 +5416,113 @@ Jul 07 07:43:35 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write ses
 Jul 07 07:43:35 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
 Jul 07 07:43:36 imap-login: Debug: SSL alert: close notify
 Jul 07 07:43:36 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:06 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 08:27:06 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:06 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:07 imap-login: Debug: SSL_get_servername() failed
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 08:27:07 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 08:27:08 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:09 imap-login: Debug: SSL error: Connection closed
+Jul 07 08:27:09 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:15 imap-login: Debug: SSL_get_servername() failed
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:15 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:15 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:15 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:17 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 08:27:17 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:17 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:18 imap-login: Debug: SSL_get_servername() failed
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:20 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:22 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:22 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:23 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 08:27:23 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:23 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:24 imap-login: Debug: SSL_get_servername() failed
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:24 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:25 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 08:27:27 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:27 imap-login: Debug: SSL alert: close notify
+Jul 07 08:27:28 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 08:27:28 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:28 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:32 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 08:27:32 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 08:27:32 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 08:27:32 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 08:27:32 imap-login: Debug: SSL error: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low
+Jul 07 08:27:32 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
