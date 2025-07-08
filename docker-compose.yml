@@ -171,19 +171,21 @@ services:
 
   # Postfixadmin Web Interface  
   postfixadmin:
-    image: hardware/postfixadmin:latest
+    image: postfixadmin
     container_name: postfixadmin
     environment:
-      - DBHOST=database-container
-      - DBUSER=postfix
-      - DBPASS=postfix_pass
-      - DBNAME=postfix
+      - POSTFIXADMIN_SMTP_SERVER=postfix
+      - POSTFIXADMIN_DB_TYPE=mysqli
+      - POSTFIXADMIN_DB_HOST=database-container
+      - POSTFIXADMIN_DB_USER=postfix
+      - POSTFIXADMIN_DB_PASSWORD=postfix_pass
+      - POSTFIXADMIN_DB_NAME=postfix
     depends_on:
       - database-container
     networks:
       - web
     ports:
-      - "8080:8888"
+      - "8080:80"
     restart: always
   # nginx:
   #   container_name: nginx

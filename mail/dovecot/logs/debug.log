@@ -5526,3 +5526,1963 @@ Jul 07 08:27:32 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal hands
 Jul 07 08:27:32 imap-login: Debug: SSL: where=0x2002, ret=-1: error
 Jul 07 08:27:32 imap-login: Debug: SSL error: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low
 Jul 07 08:27:32 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 09:03:06 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:03:06 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:03:06 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:03:06 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 09:03:06 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 09:03:06 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 09:40:04 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:40:04 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:40:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:40:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 09:40:04 pop3-login: Debug: SSL error: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request
+Jul 07 09:40:04 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 09:43:11 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:11 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:11 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:18 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:18 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:18 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:22 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:22 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:22 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:22 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:22 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:22 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:22 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:24 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:24 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:24 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:24 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:24 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:24 pop3-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 09:43:24 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 09:43:24 pop3-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 09:43:24 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 09:43:28 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:28 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:28 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:36 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:38 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:38 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:38 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:38 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:38 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:38 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:38 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:41 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:41 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:41 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:42 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:42 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:42 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 09:43:42 pop3-login: Debug: SSL error: Connection closed
+Jul 07 09:43:42 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:42 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:42 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:43 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:44 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:44 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:45 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:43:45 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:45 pop3-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 09:43:45 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 09:43:45 pop3-login: Debug: SSL error: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher
+Jul 07 09:43:45 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 09:43:46 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:43:46 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:43:46 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:43:46 pop3-login: Debug: SSL alert: where=0x4008, ret=559: fatal illegal parameter
+Jul 07 09:43:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 09:43:46 pop3-login: Debug: SSL error: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share
+Jul 07 09:43:46 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:47:26 imap-login: Debug: SSL_get_servername() failed
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 09:47:26 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 09:47:26 imap-login: Debug: SSL alert: close notify
+Jul 07 09:47:26 imap-login: Debug: SSL alert: close notify
+Jul 07 09:52:58 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 09:52:58 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 09:52:58 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:52:58 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:52:58 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:52:58 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:53:08 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:53:08 imap-login: Debug: SSL error: Connection closed
+Jul 07 09:53:08 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 09:53:08 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:16:01 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:16:01 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:16:01 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:04 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:04 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:16:04 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:04 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:16:22 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:16:22 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:16:22 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:25 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:25 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:16:25 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:25 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:16:40 imap-login: Debug: SSL_get_servername() failed
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 10:16:40 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 10:16:40 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:16:40 imap-login: Debug: SSL alert: close notify
+Jul 07 10:47:02 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:47:02 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:47:02 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:47:02 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:47:02 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 10:47:02 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 10:58:29 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:29 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:29 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:29 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:29 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 10:58:29 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:58:29 imap-login: Debug: SSL error: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low
+Jul 07 10:58:29 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:30 imap-login: Debug: SSL_get_servername() failed
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 10:58:30 imap-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:58:30 imap-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 10:58:30 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:30 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:36 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL error: Connection closed
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 10:58:43 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 10:58:43 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 11:51:05 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 11:51:05 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 11:51:05 pop3-login: Debug: SSL error: Connection closed
+Jul 07 11:51:05 pop3-login: Debug: SSL alert: close notify
+Jul 07 12:32:36 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 12:32:36 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 12:32:36 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 12:32:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 12:32:46 pop3-login: Debug: SSL error: Connection closed
+Jul 07 12:32:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 12:32:46 pop3-login: Debug: SSL error: Connection closed
+Jul 07 13:43:45 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 13:43:45 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 13:43:45 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 13:43:47 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 13:43:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 13:43:48 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 13:43:51 pop3-login: Debug: SSL alert: close notify
+Jul 07 13:43:51 pop3-login: Debug: SSL alert: close notify
+Jul 07 13:43:51 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 13:43:51 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 13:43:51 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 13:43:52 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 13:43:52 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 13:43:52 pop3-login: Debug: SSL error: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request
+Jul 07 13:43:52 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 14:34:59 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 14:34:59 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 14:34:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 14:35:00 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 14:35:00 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 14:35:00 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 14:35:01 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 14:35:01 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 14:35:02 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 14:35:02 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 14:35:03 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 14:35:03 pop3-login: Debug: SSL error: Connection closed
+Jul 07 14:35:03 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 14:35:03 pop3-login: Debug: SSL error: Connection closed
+Jul 07 14:35:30 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 14:35:30 pop3-login: Debug: SSL error: read(size=809) failed: Connection reset by peer
+Jul 07 14:35:30 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 14:35:30 pop3-login: Debug: SSL error: read(size=809) failed: Connection reset by peer
+Jul 07 15:13:00 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:13:00 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:13:00 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:13:01 imap-login: Debug: SSL_get_servername() failed
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 15:13:01 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 15:13:05 imap-login: Debug: SSL alert: close notify
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:05 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:13:05 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:05 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:38 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:13:38 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:13:38 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:14:11 imap-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 15:14:11 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 15:14:11 imap-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 15:14:11 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:14:44 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:14:44 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:14:44 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:18 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:15:18 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:18 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:51 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:15:51 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 15:15:51 imap-login: Debug: SSL error: Connection closed
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:24 imap-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 15:16:24 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:24 imap-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:57 imap-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 15:16:57 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:16:57 imap-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 07 15:17:30 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:17:30 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:17:30 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:17:30 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:17:30 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 15:17:30 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 15:17:30 imap-login: Debug: SSL error: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher
+Jul 07 15:17:30 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 15:18:03 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:18:03 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:18:03 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:18:03 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:18:03 imap-login: Debug: SSL alert: where=0x4008, ret=559: fatal illegal parameter
+Jul 07 15:18:03 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 15:18:03 imap-login: Debug: SSL error: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share
+Jul 07 15:18:03 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 15:31:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:31:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:31:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:31:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:31:20 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 15:31:20 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 15:31:20 pop3-login: Debug: SSL error: Connection closed
+Jul 07 15:31:20 pop3-login: Debug: SSL alert: close notify
+Jul 07 15:45:44 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 15:45:44 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 15:45:44 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:45:54 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:45:54 pop3-login: Debug: SSL error: Connection closed
+Jul 07 15:45:54 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 15:45:54 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:12:50 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:12:50 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:12:50 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:12:53 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:12:53 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:12:53 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:12:53 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:13:11 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:13:11 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:13:11 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:13:14 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:13:14 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:13:14 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:13:14 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:13:31 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:13:31 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:13:31 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:13:32 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 16:13:32 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 16:13:33 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:13:33 pop3-login: Debug: SSL alert: close notify
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:58 pop3-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 16:19:58 pop3-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 16:19:58 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 16:19:59 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:19:59 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:09 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:09 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:09 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:19 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 16:20:19 pop3-login: Debug: SSL error: Connection closed
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 16:20:19 pop3-login: Debug: SSL error: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher
+Jul 07 16:20:19 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 16:20:19 pop3-login: Debug: SSL alert: where=0x4008, ret=559: fatal illegal parameter
+Jul 07 16:20:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 16:20:19 pop3-login: Debug: SSL error: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share
+Jul 07 16:20:19 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 17:19:04 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 17:19:04 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 17:19:05 pop3-login: Debug: SSL error: Connection closed
+Jul 07 17:19:05 pop3-login: Debug: SSL alert: close notify
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 17:20:49 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 17:20:49 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 17:20:49 pop3-login: Debug: SSL alert: close notify
+Jul 07 17:20:49 pop3-login: Debug: SSL alert: close notify
+Jul 07 17:31:49 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 17:31:49 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 17:31:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 17:31:49 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 17:31:49 pop3-login: Debug: SSL error: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request
+Jul 07 17:31:49 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 17:31:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 17:31:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 17:31:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 17:31:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 17:31:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request
+Jul 07 17:31:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 18:02:21 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:02:21 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:02:21 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:02:21 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:02:21 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:02:21 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:02:31 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:02:31 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:02:31 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:02:31 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:06:51 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:06:51 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:06:51 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:07:01 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:07:01 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:07:01 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:07:01 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:28 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 18:10:28 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 18:10:28 pop3-login: Debug: SSL alert: close notify
+Jul 07 18:10:28 pop3-login: Debug: SSL alert: close notify
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:47 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:47 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:48 pop3-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 18:10:48 pop3-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 18:10:48 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:10:48 pop3-login: Debug: SSL error: Connection closed
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 18:10:48 pop3-login: Debug: SSL error: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher
+Jul 07 18:10:48 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:10:48 pop3-login: Debug: SSL alert: where=0x4008, ret=559: fatal illegal parameter
+Jul 07 18:10:48 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 18:10:48 pop3-login: Debug: SSL error: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share
+Jul 07 18:10:48 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:05 imap-login: Debug: SSL_get_servername() failed
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 18:33:05 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:05 imap-login: Debug: SSL error: Connection closed
+Jul 07 18:33:05 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:07 imap-login: Debug: SSL_get_servername() failed
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:07 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:07 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:07 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:09 imap-login: Debug: SSL_get_servername() failed
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:09 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:09 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:09 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:10 imap-login: Debug: SSL_get_servername() failed
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:10 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 18:33:11 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:11 imap-login: Debug: SSL alert: close notify
+Jul 07 18:33:12 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:33:12 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:12 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:33:12 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:33:12 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 18:33:12 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 18:33:12 imap-login: Debug: SSL error: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low
+Jul 07 18:33:12 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL_get_servername() failed
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 18:49:57 imap-login: Debug: SSL alert: close notify
+Jul 07 18:49:57 imap-login: Debug: SSL alert: close notify
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 18:49:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 18:49:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 18:49:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 20:28:39 imap-login: Debug: SSL_get_servername() failed
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:28:39 imap-login: Debug: SSL error: Connection closed
+Jul 07 20:28:39 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:28:39 imap-login: Debug: SSL error: Connection closed
+Jul 07 20:47:54 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 20:47:54 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 20:47:54 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 20:47:57 pop3-login: Debug: SSL_get_servername() failed
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:47:57 pop3-login: Debug: SSL error: Connection closed
+Jul 07 20:47:57 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 20:47:57 pop3-login: Debug: SSL error: Connection closed
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:20 imap-login: Debug: SSL_get_servername() failed
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 07 21:06:20 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:21 imap-login: Debug: SSL error: Connection closed
+Jul 07 21:06:21 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:22 imap-login: Debug: SSL_get_servername() failed
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:22 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:23 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:23 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:23 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:25 imap-login: Debug: SSL_get_servername() failed
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:25 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:25 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:25 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:26 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:06:26 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:26 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:27 imap-login: Debug: SSL_get_servername() failed
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:27 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 07 21:06:27 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:27 imap-login: Debug: SSL alert: close notify
+Jul 07 21:06:28 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:06:28 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:28 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:28 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:06:28 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:06:28 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 21:06:28 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:06:28 imap-login: Debug: SSL error: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low
+Jul 07 21:06:28 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:46 imap-login: Debug: SSL error: read(size=1026) failed: Connection reset by peer
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:46 imap-login: Debug: SSL error: read(size=1026) failed: Connection reset by peer
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:46 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:52 imap-login: Debug: SSL error: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low
+Jul 07 21:36:52 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL_get_servername() failed
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 21:36:52 imap-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:52 imap-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 21:36:52 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL_get_servername() failed
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 07 21:36:52 imap-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:52 imap-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 07 21:36:52 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:52 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL error: Connection closed
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL error: Connection closed
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 07 21:36:57 imap-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 07 21:36:57 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:37:17 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:37:17 imap-login: Debug: SSL error: Connection closed
+Jul 07 21:37:17 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:37:17 imap-login: Debug: SSL error: Connection closed
+Jul 07 21:37:27 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:37:27 imap-login: Debug: SSL error: Connection closed
+Jul 07 21:37:27 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 07 21:37:27 imap-login: Debug: SSL error: Connection closed
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 00:58:40 pop3-login: Debug: SSL_get_servername() failed
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 00:58:40 imap-login: Debug: SSL_get_servername() failed
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 00:58:40 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 00:58:40 pop3-login: Debug: SSL alert: close notify
+Jul 08 00:58:40 pop3-login: Debug: SSL alert: close notify
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 00:58:40 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 00:58:40 imap-login: Debug: SSL alert: close notify
+Jul 08 00:58:40 imap-login: Debug: SSL alert: close notify
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:14:16 imap-login: Debug: SSL_get_servername() failed
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 01:14:16 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 01:14:16 imap-login: Debug: SSL error: read(size=688) failed: Connection reset by peer
+Jul 08 01:14:16 imap-login: Debug: SSL alert: close notify
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:46:08 imap-login: Debug: SSL_get_servername() failed
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 01:46:08 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 01:46:08 imap-login: Debug: SSL alert: close notify
+Jul 08 01:46:08 imap-login: Debug: SSL alert: close notify
+Jul 08 01:46:35 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 01:46:35 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:46:35 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:38 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:38 pop3-login: Debug: SSL error: Connection closed
+Jul 08 01:46:38 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:38 pop3-login: Debug: SSL error: Connection closed
+Jul 08 01:46:55 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 01:46:55 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:46:55 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:58 pop3-login: Debug: SSL error: Connection closed
+Jul 08 01:46:58 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:46:58 pop3-login: Debug: SSL error: Connection closed
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 01:47:16 pop3-login: Debug: SSL_get_servername() failed
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 01:47:16 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 08 01:47:17 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 01:47:17 pop3-login: Debug: SSL error: Connection closed
+Jul 08 01:47:17 pop3-login: Debug: SSL alert: close notify
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 02:46:17 pop3-login: Debug: SSL_get_servername() failed
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 02:46:17 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 02:46:17 pop3-login: Debug: SSL error: Connection closed
+Jul 08 02:46:17 pop3-login: Debug: SSL alert: close notify
+Jul 08 03:43:10 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 03:43:10 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 03:43:10 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 03:43:10 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 08 03:43:10 pop3-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 08 03:43:10 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 03:59:53 imap-login: Debug: SSL_get_servername() failed
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 08 03:59:53 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 03:59:53 imap-login: Debug: SSL error: Connection closed
+Jul 08 03:59:53 imap-login: Debug: SSL alert: close notify
+Jul 08 04:05:33 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:05:33 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:05:33 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:05:35 imap-login: Debug: SSL_get_servername() failed
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:05:35 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:05:36 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:05:36 imap-login: Debug: SSL error: Connection closed
+Jul 08 04:05:36 imap-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:05:36 imap-login: Debug: SSL error: Connection closed
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 04:17:18 pop3-login: Debug: SSL alert: close notify
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:18 pop3-login: Debug: SSL alert: where=0x4008, ret=592: fatal internal error
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 08 04:17:18 pop3-login: Debug: SSL error: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error
+Jul 08 04:17:18 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:18 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:18 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 04:17:19 pop3-login: Debug: SSL error: Connection closed
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:19 pop3-login: Debug: SSL error: read(size=596) failed: Connection reset by peer
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL alert: where=0x4008, ret=552: fatal handshake failure
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 08 04:17:19 pop3-login: Debug: SSL error: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher
+Jul 08 04:17:19 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:19 pop3-login: Debug: SSL alert: where=0x4008, ret=559: fatal illegal parameter
+Jul 08 04:17:19 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 08 04:17:19 pop3-login: Debug: SSL error: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share
+Jul 08 04:17:19 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 04:17:20 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 04:17:20 pop3-login: Debug: SSL alert: close notify
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 05:49:06 pop3-login: Debug: SSL_get_servername() failed
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 05:49:06 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 05:49:07 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 05:49:07 pop3-login: Debug: SSL error: Connection closed
+Jul 08 05:49:07 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 05:49:07 pop3-login: Debug: SSL error: Connection closed
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 06:26:37 pop3-login: Debug: SSL_get_servername() failed
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 06:26:37 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 06:26:37 pop3-login: Debug: SSL alert: close notify
+Jul 08 06:26:37 pop3-login: Debug: SSL alert: close notify
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 06:51:39 pop3-login: Debug: SSL_get_servername() failed
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write key exchange
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2002, ret=-1: SSLv3/TLS write server done
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server done
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client key exchange
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read change cipher spec
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x20, ret=1: SSL negotiation finished successfully
+Jul 08 06:51:39 pop3-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 06:51:39 pop3-login: Debug: SSL alert: close notify
+Jul 08 06:51:39 pop3-login: Debug: SSL alert: close notify
+Jul 08 06:59:46 pop3-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 06:59:46 pop3-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 06:59:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 06:59:46 pop3-login: Debug: SSL: where=0x2002, ret=-1: error
+Jul 08 06:59:46 pop3-login: Debug: SSL error: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+Jul 08 06:59:46 pop3-login: Debug: SSL error: SSL_accept() syscall failed: Invalid argument
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x10, ret=1: before SSL initialization
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2002, ret=-1: before SSL initialization
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: before SSL initialization
+Jul 08 09:43:39 imap-login: Debug: SSL_get_servername() failed
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read client hello
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write server hello
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write change cipher spec
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write encrypted extensions
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write certificate
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 write server certificate verify
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write finished
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 09:43:39 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x2002, ret=-1: TLSv1.3 early data
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x2001, ret=1: TLSv1.3 early data
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS read finished
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x20, ret=1: SSLv3/TLS write session ticket
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x2001, ret=1: SSLv3/TLS write session ticket
+Jul 08 09:43:40 imap-login: Debug: SSL: where=0x2002, ret=1: SSL negotiation finished successfully
+Jul 08 09:43:40 imap-login: Debug: SSL alert: close notify
+Jul 08 09:43:40 imap-login: Debug: SSL alert: close notify
