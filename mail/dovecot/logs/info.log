@@ -880,3 +880,6 @@ Jul 10 07:56:04 imap-login: Info: Disconnected (no auth attempts in 1 secs): use
 Jul 10 08:47:37 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
 Jul 10 09:14:18 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=205.210.31.85, lip=172.19.0.6, session=<I3RJno85OO7N0h9V>
 Jul 10 09:15:51 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 10 09:23:56 pop3-login: Info: Disconnected (no auth attempts in 15 secs): user=<>, rip=162.142.125.218, lip=172.19.0.8, TLS handshaking: Connection closed, session=<T8OywI856q6ijn3a>
+Jul 10 09:24:22 pop3-login: Info: Disconnected (no auth attempts in 16 secs): user=<>, rip=167.94.138.53, lip=172.19.0.8, TLS handshaking: Connection closed, session=<RUxCwo85YrGnXoo1>
+Jul 10 09:24:48 pop3-login: Info: Disconnected (no auth attempts in 16 secs): user=<>, rip=206.168.34.40, lip=172.19.0.8, TLS handshaking: Connection closed, session=</uzJw485Wo/OqCIo>
