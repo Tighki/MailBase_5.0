@@ -633,3 +633,250 @@ Jul 08 06:51:39 pop3-login: Info: Disconnected (no auth attempts in 0 secs): use
 Jul 08 06:55:03 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=205.210.31.206, lip=172.19.0.8, session=<3FSTcGU5CvPN0h/O>
 Jul 08 06:59:46 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.8, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<Mb55gWU5VpRZ+K6C>
 Jul 08 09:43:40 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=205.210.31.151, lip=172.19.0.8, TLS, session=<WT+ay2c5wu3N0h+X>
+Jul 08 12:07:24 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 08 13:55:49 managesieve-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=205.210.31.143, lip=172.19.0.6, session=<9gFUUWs5Ku/N0h+P>
+Jul 08 15:01:43 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=113.30.150.132, lip=172.19.0.6, session=<nw4OPWw5/LdxHpaE>
+Jul 08 15:56:05 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=71.6.134.235, lip=172.19.0.6, TLS, session=<4cNz/2w5KMFHBobr>
+Jul 08 16:11:34 pop3-login: Info: Disconnected (no auth attempts in 5 secs): user=<>, rip=71.6.134.235, lip=172.19.0.6, TLS handshaking: Connection closed, session=<MPvYNm05FslHBobr>
+Jul 08 16:16:50 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=130.131.162.156, lip=172.19.0.6, session=<lUivSW05treCg6Kc>
+Jul 08 16:26:55 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=71.6.134.235, lip=172.19.0.6, TLS, session=<GR69bW05DsFHBobr>
+Jul 08 16:42:20 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=71.6.134.235, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<+rrbpG05KrJHBobr>
+Jul 08 16:45:11 pop3-login: Info: Disconnected (no auth attempts in 13 secs): user=<>, rip=167.94.138.62, lip=172.19.0.6, TLS: Connection closed, session=<l94Vr205Dt+nXoo+>
+Jul 08 16:48:21 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=193.174.89.19, lip=172.19.0.6, TLS: Connection closed, session=<+bNoum059oHBrlkT>
+Jul 08 17:04:08 pop3-login: Info: Disconnected (no auth attempts in 12 secs): user=<>, rip=167.94.138.54, lip=172.19.0.6, TLS: Connection closed, session=<V8bT8m05osqnXoo2>
+Jul 08 17:12:54 imap-login: Info: Disconnected (no auth attempts in 8 secs): user=<>, rip=139.212.57.46, lip=172.19.0.6, TLS, session=<gjgxEm45DLSL1Dku>
+Jul 08 17:12:55 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=1.83.125.190, lip=172.19.0.6, TLS handshaking: Connection closed, session=<mA9FEm45UX8BU32+>
+Jul 08 17:12:56 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=61.167.255.133, lip=172.19.0.6, TLS handshaking: Connection closed, session=<vu9OEm45e0Q9p/+F>
+Jul 08 17:12:56 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=101.207.156.155, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error, session=<6d9TEm45Hahlz5yb>
+Jul 08 17:12:57 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=183.191.120.2, lip=172.19.0.6, TLS handshaking: Connection closed, session=<ziNdEm45i1W3v3gC>
+Jul 08 17:12:59 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=123.144.31.18, lip=172.19.0.6, TLS handshaking: Connection closed, session=<6DZ4Em45d0l7kB8S>
+Jul 08 17:12:59 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=220.250.10.14, lip=172.19.0.6, TLS handshaking: Connection closed, session=<Lep+Em45j6jc+goO>
+Jul 08 17:13:00 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=123.160.174.89, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<lQ6JEm45DOd7oK5Z>
+Jul 08 17:13:03 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=117.13.170.253, lip=172.19.0.6, TLS handshaking: Connection closed, session=<Zby4Em45yMN1Dar9>
+Jul 08 17:13:04 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=1.83.125.18, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher, session=<VnDEEm45G/ABU30S>
+Jul 08 17:13:06 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=42.63.51.19, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share, session=<xGHeEm45P8YqPzMT>
+Jul 08 17:32:02 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=64.62.156.80, lip=172.19.0.6, TLS handshaking: Connection closed, session=<IfyhVm45FEpAPpxQ>
+Jul 08 17:32:24 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=64.62.156.80, lip=172.19.0.6, TLS handshaking: Connection closed, session=<7S7kV245nIxAPpxQ>
+Jul 08 17:32:41 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=64.62.156.80, lip=172.19.0.6, TLS: Connection closed, session=<8JroWG45FmZAPpxQ>
+Jul 08 17:35:39 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=91.223.169.235, lip=172.19.0.6, session=<tAGSY245ptNb36nr>
+Jul 08 17:38:46 pop3-login: Info: Disconnected (no auth attempts in 10 secs): user=<>, rip=57.128.230.106, lip=172.19.0.6, TLS handshaking: Connection closed, session=</2G0bm45Gpo5gOZq>
+Jul 08 18:10:29 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<3qUc4G45INtZ+K6C>
+Jul 08 18:10:29 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<M/Ef4G45KttZ+K6C>
+Jul 08 18:10:31 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<9/o14G45RttZ+K6C>
+Jul 08 18:10:31 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<9Vo74G45NttZ+K6C>
+Jul 08 18:10:37 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<5CCW4G452KtZ+K6C>
+Jul 08 18:10:38 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<VVet4G454qtZ+K6C>
+Jul 08 18:10:58 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<WNDY4W45XpVZ+K6C>
+Jul 08 18:11:00 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=</vfy4W45bJVZ+K6C>
+Jul 08 18:11:32 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<ZC3c4245VLxZ+K6C>
+Jul 08 18:11:34 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<Wtj94245ZLxZ+K6C>
+Jul 08 18:13:27 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<4CW76m45hIhZ+K6C>
+Jul 08 18:13:29 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<pUzU6m45hohZ+K6C>
+Jul 08 18:14:57 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<WqYW8G45BohZ+K6C>
+Jul 08 18:14:59 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=89.248.174.130, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<pV0u8G45FIhZ+K6C>
+Jul 08 18:41:13 imap-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=198.235.24.59, lip=172.19.0.6, TLS handshaking: Connection closed, session=<aD0ETm85ws7G6xg7>
+Jul 08 19:29:23 imap-login: Info: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=20.127.170.152, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<wTVQ+m85XNEUf6qY>
+Jul 08 19:46:39 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=20.65.194.38, lip=172.19.0.6, TLS, session=<OlQGOHA5+LkUQcIm>
+Jul 08 19:46:39 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=20.65.194.38, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<hqQJOHA5/rkUQcIm>
+Jul 08 21:18:45 pop3-login: Info: Aborted login (no auth attempts in 6 secs): user=<>, rip=185.247.137.243, lip=172.19.0.6, TLS, session=<k7RkgXE516m594nz>
+Jul 08 21:37:58 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=162.142.125.209, lip=172.19.0.6, TLS: Connection closed, session=<QpodxnE5gMqijn3R>
+Jul 08 21:38:11 imap-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=162.142.125.209, lip=172.19.0.6, TLS, session=<vpHuxnE5OMCijn3R>
+Jul 08 21:38:15 imap-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=162.142.125.209, lip=172.19.0.6, TLS, session=<Rbomx3E5QsCijn3R>
+Jul 08 21:38:27 imap-login: Info: Disconnected (no auth attempts in 10 secs): user=<>, rip=162.142.125.209, lip=172.19.0.6, TLS, session=<NunVx3E5UMCijn3R>
+Jul 08 21:38:29 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=162.142.125.209, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low, session=<MLr3x3E5ANuijn3R>
+Jul 08 22:01:25 imap-login: Info: Aborted login (no auth attempts in 6 secs): user=<>, rip=87.236.176.236, lip=172.19.0.6, TLS, session=<84f9GXI5a8BX7LDs>
+Jul 08 23:51:21 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=205.210.31.215, lip=172.19.0.6, session=<IoAto3M5pvvN0h/X>
+Jul 08 23:51:58 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=103.203.59.9, lip=172.19.0.6, session=<i+NTpXM5wpdnyzsJ>
+Jul 09 00:59:40 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.54, lip=172.19.0.6, TLS: Connection closed, session=<pE96l3Q5AI1ChJk2>
+Jul 09 01:22:00 pop3-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=198.235.24.81, lip=172.19.0.6, TLS handshaking: Connection closed, session=<Kn9U53Q5HM/G6xhR>
+Jul 09 01:40:07 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=167.94.138.58, lip=172.19.0.6, TLS: Connection closed, session=<4A8hKHU5nuunXoo6>
+Jul 09 01:40:11 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 1 secs): user=<>, rip=167.94.138.58, lip=172.19.0.6, session=<9aJdKHU5zOunXoo6>
+Jul 09 01:40:14 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 1 secs): user=<>, rip=167.94.138.58, lip=172.19.0.6, session=<tdiIKHU5kuKnXoo6>
+Jul 09 01:40:20 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 2 secs): user=<>, rip=167.94.138.58, lip=172.19.0.6, session=<iAPqKHU5uOKnXoo6>
+Jul 09 01:40:23 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 1 secs): user=<>, rip=167.94.138.58, lip=172.19.0.6, session=<H04OKXU5erWnXoo6>
+Jul 09 02:03:36 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 2 secs): user=<>, rip=80.82.77.202, lip=172.19.0.6, session=<iqAVfHU5YOpQUk3K>
+Jul 09 02:40:49 pop3-login: Info: Disconnected (no auth attempts in 10 secs): user=<>, rip=20.65.194.9, lip=172.19.0.6, TLS handshaking: Connection closed, session=<k7MxAXY5ipYUQcIJ>
+Jul 09 04:04:46 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=167.94.145.104, lip=172.19.0.6, TLS: Connection closed, session=<UxVqLXc53NGnXpFo>
+Jul 09 04:04:48 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.145.104, lip=172.19.0.6, TLS, session=<k/2MLXc59tGnXpFo>
+Jul 09 04:04:50 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.145.104, lip=172.19.0.6, TLS, session=<yZK0LXc5EtKnXpFo>
+Jul 09 04:04:52 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.145.104, lip=172.19.0.6, TLS, session=<knrOLXc5JqunXpFo>
+Jul 09 04:04:53 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.145.104, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low, session=<WU3gLXc5MqunXpFo>
+Jul 09 04:44:05 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=198.235.24.213, lip=172.19.0.6, TLS, session=<MFQKunc50ODG6xjV>
+Jul 09 04:53:29 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=172.236.228.218, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<fM6k23c5HIGs7OTa>
+Jul 09 04:53:29 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=172.236.228.218, lip=172.19.0.6, TLS, session=<4jut23c5JoGs7OTa>
+Jul 09 05:50:18 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=20.102.88.108, lip=172.19.0.6, session=<zEDXpng5KswUZlhs>
+Jul 09 06:24:40 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=198.235.24.50, lip=172.19.0.6, TLS handshaking: Connection closed, session=<iYm+IXk5T8bG6xgy>
+Jul 09 06:33:33 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=65.49.1.128, lip=172.19.0.6, session=<tCSNQXk5dzBBMQGA>
+Jul 09 06:33:46 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=65.49.1.122, lip=172.19.0.6, TLS: Connection closed, session=<2WZSQnk54nFBMQF6>
+Jul 09 06:33:59 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=65.49.1.122, lip=172.19.0.6, session=<wuIPQ3k5BLhBMQF6>
+Jul 09 07:17:30 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=161.35.230.3, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<CJC43nk5rKGhI+YD>
+Jul 09 07:17:40 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=161.35.230.3, lip=172.19.0.6, session=<wrVN33k52puhI+YD>
+Jul 09 07:18:24 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=161.35.230.3, lip=172.19.0.6, session=<+8zs4Xk5xNuhI+YD>
+Jul 09 07:18:27 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=161.35.230.3, lip=172.19.0.6, session=<irgd4nk5LouhI+YD>
+Jul 09 07:18:38 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=161.35.230.3, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<Q7XB4nk5KsahI+YD>
+Jul 09 07:54:27 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=205.210.31.101, lip=172.19.0.6, TLS handshaking: Connection closed, session=<DULgYno5l9PN0h9l>
+Jul 09 08:04:58 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=147.185.132.13, lip=172.19.0.6, TLS, session=<aXl7iHo58PaTuYQN>
+Jul 09 08:23:53 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=66.228.53.204, lip=172.19.0.6, session=<5yIezHo50ChC5DXM>
+Jul 09 08:23:53 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=66.228.53.204, lip=172.19.0.6, session=<iY8hzHo51ChC5DXM>
+Jul 09 08:34:36 managesieve-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=45.79.207.71, lip=172.19.0.6, session=<oL5w8no5dYgtT89H>
+Jul 09 08:55:20 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=64.62.197.133, lip=172.19.0.6, TLS handshaking: Connection closed, session=<D+WUPHs5V/1APsWF>
+Jul 09 08:55:41 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=64.62.197.122, lip=172.19.0.6, TLS handshaking: Connection closed, session=<Dv/RPXs5rGdAPsV6>
+Jul 09 08:55:57 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=64.62.197.122, lip=172.19.0.6, TLS: Connection closed, session=<ly/HPns5UElAPsV6>
+Jul 09 09:12:53 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=47.254.255.250, lip=172.19.0.6, session=</x9ce3s59Ikv/v/6>
+Jul 09 09:13:04 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=47.254.255.250, lip=172.19.0.6, session=<myj6e3s5Npov/v/6>
+Jul 09 09:13:17 managesieve-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=47.254.255.250, lip=172.19.0.6, session=<Gq3FfHs5zqsv/v/6>
+Jul 09 10:02:32 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=91.231.89.81, lip=172.19.0.6, session=<xnDqLHw5pZJb51lR>
+Jul 09 10:02:36 managesieve-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=91.231.89.84, lip=172.19.0.6, session=<Sq8pLXw5Je1b51lU>
+Jul 09 10:38:16 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.55, lip=172.19.0.6, TLS: Connection closed, session=<o8a0rHw5yrZChJk3>
+Jul 09 10:51:03 imap-login: Info: Disconnected (no auth attempts in 10 secs): user=<>, rip=20.163.15.93, lip=172.19.0.6, session=<sgpp2nw5TpcUow9d>
+Jul 09 11:44:00 imap-login: Info: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low, session=<UnjKl305pNNVjmSI>
+Jul 09 11:44:00 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error, session=<d/zLl305ptNVjmSI>
+Jul 09 11:44:07 imap-login: Info: Disconnected (no auth attempts in 7 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: Connection closed, session=<844wmH05rNNVjmSI>
+Jul 09 11:44:13 imap-login: Info: Disconnected (no auth attempts in 6 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: Connection closed, session=<sWmUmH05JsJVjmSI>
+Jul 09 11:44:13 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<z0OVmH05NMJVjmSI>
+Jul 09 11:44:13 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<m8aWmH05OMJVjmSI>
+Jul 09 11:44:14 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<a06YmH05OsJVjmSI>
+Jul 09 11:44:14 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<qNuZmH05QMJVjmSI>
+Jul 09 12:18:29 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.60, lip=172.19.0.6, TLS: Connection closed, session=<jNUZE345JsBChJk8>
+Jul 09 12:18:31 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=66.132.153.60, lip=172.19.0.6, TLS, session=<RasyE345KsBChJk8>
+Jul 09 12:18:32 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.60, lip=172.19.0.6, TLS, session=<P+5IE345tNhChJk8>
+Jul 09 12:18:34 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.60, lip=172.19.0.6, TLS, session=<A+RkE345vNhChJk8>
+Jul 09 12:18:35 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.60, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low, session=<VBp4E345xthChJk8>
+Jul 09 12:47:04 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 09 12:56:05 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 09 13:20:09 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=65.49.20.66, lip=172.19.0.5, TLS handshaking: Connection closed, session=<Houi7345urRBMRRC>
+Jul 09 13:20:30 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=65.49.20.66, lip=172.19.0.5, TLS handshaking: Connection closed, session=<FtPl8H45Iv9BMRRC>
+Jul 09 13:20:48 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=65.49.20.66, lip=172.19.0.5, TLS: Connection closed, session=<GSf48X45PCpBMRRC>
+Jul 09 13:37:58 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 09 13:44:23 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 09 13:52:42 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=20.15.225.33, lip=172.19.0.6, session=<I1ALZH858rIUD+Eh>
+Jul 09 13:52:42 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=20.15.225.33, lip=172.19.0.6, session=<e/EQZH85ArMUD+Eh>
+Jul 09 14:16:42 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=193.174.89.19, lip=172.19.0.6, TLS: Connection closed, session=<nQPguX85iHjBrlkT>
+Jul 09 14:46:48 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=35.233.7.110, lip=172.19.0.6, session=<1duLJYA5hosj6Qdu>
+Jul 09 14:47:00 pop3-login: Info: Disconnected (no auth attempts in 11 secs): user=<>, rip=35.233.7.110, lip=172.19.0.6, session=<dH9BJoA5iIsj6Qdu>
+Jul 09 15:16:17 pop3-login: Info: Disconnected (no auth attempts in 7 secs): user=<>, rip=85.142.100.139, lip=172.19.0.6, session=<JNn1joA59pRVjmSL>
+Jul 09 15:50:50 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=20.64.104.155, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<quqFCoE5FMoUQGib>
+Jul 09 16:28:02 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=65.49.1.182, lip=172.19.0.6, session=<Vp+Rj4E5RFhBMQG2>
+Jul 09 16:28:16 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=65.49.1.182, lip=172.19.0.6, TLS: Connection closed, session=<RqpnkIE59tdBMQG2>
+Jul 09 16:28:28 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=65.49.1.182, lip=172.19.0.6, session=<Nx8lkYE5EOxBMQG2>
+Jul 09 16:32:17 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=216.218.206.68, lip=172.19.0.6, TLS handshaking: Connection closed, session=<wIbHnoE50sXY2s5E>
+Jul 09 16:32:38 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=216.218.206.68, lip=172.19.0.6, TLS handshaking: Connection closed, session=<97EAoIE5AoXY2s5E>
+Jul 09 16:32:55 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=216.218.206.68, lip=172.19.0.6, TLS: Connection closed, session=<8rcLoYE5QubY2s5E>
+Jul 09 16:39:34 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=64.62.197.151, lip=172.19.0.6, TLS handshaking: Connection closed, session=<XpjMuIE5k1BAPsWX>
+Jul 09 16:39:54 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=64.62.197.137, lip=172.19.0.6, TLS handshaking: Connection closed, session=<E8L7uYE5tjVAPsWJ>
+Jul 09 16:40:07 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.62.197.137, lip=172.19.0.6, TLS: Connection closed, session=<SRfHuoE5FuRAPsWJ>
+Jul 09 17:06:25 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=57.129.64.237, lip=172.19.0.6, session=<Qu/UGII55tk5gUDt>
+Jul 09 17:33:56 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=172.236.228.115, lip=172.19.0.6, session=<tU1Fe4I5SGSs7ORz>
+Jul 09 17:33:57 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=172.236.228.115, lip=172.19.0.6, session=</GtJe4I5VmSs7ORz>
+Jul 09 17:43:40 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=167.71.123.169, lip=172.19.0.6, session=<afEHnoI5+r2nR3up>
+Jul 09 17:43:40 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=139.144.169.241, lip=172.19.0.6, TLS: Connection closed, session=<rCkMnoI5auCLkKnx>
+Jul 09 17:47:24 pop3-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=192.241.156.35, lip=172.19.0.6, session=<i7xhq4I5zL7A8Zwj>
+Jul 09 17:47:25 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=192.241.156.35, lip=172.19.0.6, session=<FE58q4I52r7A8Zwj>
+Jul 09 17:52:10 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=184.105.247.252, lip=172.19.0.6, session=<96h3vII5RiW4aff8>
+Jul 09 17:52:26 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=184.105.247.252, lip=172.19.0.6, TLS: Connection closed, session=<uL1kvYI56s64aff8>
+Jul 09 17:52:40 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=184.105.247.252, lip=172.19.0.6, session=<OuQ4voI5mjC4aff8>
+Jul 09 18:06:26 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=194.180.49.39, lip=172.19.0.6, session=<8Ad+74I5/v7CtDEn>
+Jul 09 18:14:53 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=66.132.153.61, lip=172.19.0.6, TLS: Connection closed, session=<XaSrDYM5qIBChJk9>
+Jul 09 18:14:54 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=66.132.153.61, lip=172.19.0.6, session=<0Pq+DYM5uIBChJk9>
+Jul 09 18:14:55 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=66.132.153.61, lip=172.19.0.6, session=<zi3UDYM5voBChJk9>
+Jul 09 18:14:57 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=66.132.153.61, lip=172.19.0.6, session=<gJXtDYM5zoBChJk9>
+Jul 09 18:14:58 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=66.132.153.61, lip=172.19.0.6, session=<YGsEDoM51IBChJk9>
+Jul 09 18:31:41 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=45.156.129.121, lip=172.19.0.6, session=<J/rLSYM51dAtnIF5>
+Jul 09 18:52:49 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=167.94.145.99, lip=172.19.0.6, TLS: Connection closed, session=<DqhZlYM5euanXpFj>
+Jul 09 18:52:53 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 3 secs): user=<>, rip=167.94.145.99, lip=172.19.0.6, session=<06+XlYM5puanXpFj>
+Jul 09 18:52:54 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=167.94.145.99, lip=172.19.0.6, session=<nUeulYM5quanXpFj>
+Jul 09 18:52:56 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=167.94.145.99, lip=172.19.0.6, session=<sRnDlYM5vOanXpFj>
+Jul 09 18:52:57 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=167.94.145.99, lip=172.19.0.6, session=<ewfUlYM5AOenXpFj>
+Jul 09 19:52:52 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, session=<cewebIQ58pZVjmSI>
+Jul 09 19:53:00 imap-login: Info: Disconnected (no auth attempts in 6 secs): user=<>, rip=85.142.100.136, lip=172.19.0.6, session=<HWCabIQ5/pZVjmSI>
+Jul 09 21:00:53 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS handshaking: Connection closed, session=<skJWX4U5YYwtKyHS>
+Jul 09 21:01:04 imap-login: Info: Disconnected (no auth attempts in 11 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS: Connection closed, session=<Lh8AYIU5N44tKyHS>
+Jul 09 21:01:23 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS handshaking: Connection closed, session=<voYdYYU5lYItKyHS>
+Jul 09 21:01:26 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS: Connection closed, session=<fWZOYYU5wdktKyHS>
+Jul 09 21:13:45 pop3-login: Info: Aborted login (no auth attempts in 5 secs): user=<>, rip=87.236.176.120, lip=172.19.0.6, TLS, session=<mBJajYU5/6RX7LB4>
+Jul 09 21:13:45 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.53, lip=172.19.0.6, TLS handshaking: Connection closed, session=<iS9gjYU5P4S594k1>
+Jul 09 21:14:18 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.61, lip=172.19.0.6, TLS handshaking: Connection closed, session=<j59Yj4U5n8S594k9>
+Jul 09 21:14:51 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.58, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error, session=<kpRQkYU5+eRX7LA6>
+Jul 09 21:15:24 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.61, lip=172.19.0.6, TLS handshaking: Connection closed, session=<g+9Mk4U5Pdm594k9>
+Jul 09 21:15:58 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.65, lip=172.19.0.6, TLS handshaking: Connection closed, session=<WWdFlYU589ZX7LBB>
+Jul 09 21:16:31 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.50, lip=172.19.0.6, TLS handshaking: Connection closed, session=<C7pBl4U59d+594ky>
+Jul 09 21:17:04 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.64, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<ZVA6mYU5Lea594lA>
+Jul 09 21:17:37 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.63, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<uUw2m4U5VcpX7LA/>
+Jul 09 21:18:10 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.48, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher, session=<u1UunYU5Taq594kw>
+Jul 09 21:18:43 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.52, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share, session=<6Lsmn4U5K9NX7LA0>
+Jul 09 21:29:50 pop3-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=167.94.138.44, lip=172.19.0.6, TLS: Connection closed, session=<ajDoxoU5vKinXoos>
+Jul 09 21:41:34 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=147.185.132.255, lip=172.19.0.6, TLS handshaking: Connection closed, session=<l2vY8IU5vNiTuYT/>
+Jul 09 21:49:12 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=45.91.171.220, lip=172.19.0.6, TLS, session=<igsfDIY5pOYtW6vc>
+Jul 09 21:59:36 imap-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=167.94.146.51, lip=172.19.0.6, TLS: Connection closed, session=<GAFWMYY5yImnXpIz>
+Jul 09 21:59:39 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.146.51, lip=172.19.0.6, TLS, session=<i9eDMYY5+ImnXpIz>
+Jul 09 21:59:40 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.146.51, lip=172.19.0.6, TLS, session=<wjWWMYY5rJCnXpIz>
+Jul 09 21:59:42 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=167.94.146.51, lip=172.19.0.6, TLS, session=<HOGuMYY5spCnXpIz>
+Jul 09 21:59:43 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=167.94.146.51, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low, session=<Do/GMYY55pCnXpIz>
+Jul 09 22:08:24 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=139.162.116.22, lip=172.19.0.6, TLS: Connection closed, session=<xfvIUIY5KMqLonQW>
+Jul 09 22:51:50 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=66.132.153.49, lip=172.19.0.6, TLS: Connection closed, session=<MzEd7IY5hMVChJkx>
+Jul 09 23:08:39 imap-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=198.235.24.108, lip=172.19.0.6, TLS handshaking: Connection closed, session=<jV9PKIc5g8DG6xhs>
+Jul 09 23:49:38 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=48.214.144.34, lip=172.19.0.6, TLS, session=<TBbXuoc5LtAw1pAi>
+Jul 09 23:49:38 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=48.214.144.34, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<wGDZuoc5MtAw1pAi>
+Jul 09 23:51:02 managesieve-login: Info: Disconnected (no auth attempts in 31 secs): user=<>, rip=35.203.211.167, lip=172.19.0.6, session=<Zwjjv4c578Ejy9On>
+Jul 10 00:31:49 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=205.210.31.211, lip=172.19.0.6, TLS handshaking: Connection closed, session=<7IKxUYg54tjN0h/T>
+Jul 10 00:51:57 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.62.197.170, lip=172.19.0.6, session=<Z0e+mYg5EXlAPsWq>
+Jul 10 00:52:11 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=64.62.197.167, lip=172.19.0.6, TLS: Connection closed, session=<h6KImog5LjVAPsWn>
+Jul 10 00:52:31 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=64.62.197.167, lip=172.19.0.6, session=<+gu7m4g59JJAPsWn>
+Jul 10 01:34:10 pop3-login: Info: Disconnected (no auth attempts in 16 secs): user=<>, rip=206.168.34.70, lip=172.19.0.6, TLS handshaking: Connection closed, session=<vy6sMIk5RoXOqCJG>
+Jul 10 01:34:30 pop3-login: Info: Disconnected (no auth attempts in 15 secs): user=<>, rip=162.142.125.212, lip=172.19.0.6, TLS handshaking: Connection closed, session=<VWjoMYk5vNmijn3U>
+Jul 10 01:34:52 pop3-login: Info: Disconnected (no auth attempts in 17 secs): user=<>, rip=167.94.138.190, lip=172.19.0.6, TLS handshaking: Connection closed, session=<Poo5M4k5XtCnXoq+>
+Jul 10 01:43:23 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=65.49.1.150, lip=172.19.0.6, TLS handshaking: Connection closed, session=<KF6lUYk581xBMQGW>
+Jul 10 01:43:43 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=65.49.1.142, lip=172.19.0.6, TLS handshaking: Connection closed, session=<ZvDaUok5QuNBMQGO>
+Jul 10 01:43:58 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=65.49.1.142, lip=172.19.0.6, TLS: Connection closed, session=<EFXBU4k5htxBMQGO>
+Jul 10 01:50:02 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=198.235.24.104, lip=172.19.0.6, TLS, session=<xNpsaYk5DPXG6xho>
+Jul 10 03:10:55 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=139.162.113.212, lip=172.19.0.6, TLS: Connection closed, session=<zyizioo51siLonHU>
+Jul 10 03:24:11 pop3-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS handshaking: Connection closed, session=<QKceuoo5aaEtKyHS>
+Jul 10 03:24:22 pop3-login: Info: Disconnected (no auth attempts in 11 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS: Connection closed, session=<lXTSuoo5Z9ktKyHS>
+Jul 10 03:24:38 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS handshaking: Connection closed, session=<H53Gu4o5GeAtKyHS>
+Jul 10 03:24:42 pop3-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=45.43.33.210, lip=172.19.0.6, TLS: Connection closed, session=<xqj3u4o58+MtKyHS>
+Jul 10 03:49:35 imap-login: Info: Disconnected (no auth attempts in 8 secs): user=<>, rip=167.94.138.51, lip=172.19.0.6, TLS: Connection closed, session=<Cib+FIs5xMWnXooz>
+Jul 10 03:49:57 imap-login: Info: Disconnected (no auth attempts in 16 secs): user=<>, rip=167.94.138.51, lip=172.19.0.6, TLS, session=<SK1KFos5GNqnXooz>
+Jul 10 03:50:08 imap-login: Info: Disconnected (no auth attempts in 9 secs): user=<>, rip=167.94.138.51, lip=172.19.0.6, TLS, session=<2rL1Fos5wK+nXooz>
+Jul 10 03:50:27 imap-login: Info: Disconnected (no auth attempts in 17 secs): user=<>, rip=167.94.138.51, lip=172.19.0.6, TLS, session=<rTUNGIs5yIynXooz>
+Jul 10 03:50:31 imap-login: Info: Disconnected (no auth attempts in 3 secs): user=<>, rip=167.94.138.51, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low, session=<W6tTGIs56rmnXooz>
+Jul 10 04:03:25 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS, session=<eipxRos5ttpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: Connection closed, session=<P8ZxRos5xNpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: Connection closed, session=<BzdyRos50tpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error, session=<x35yRos54NpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: Connection closed, session=<LhhzRos55tpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: Connection closed, session=<QoNzRos57NpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: Connection closed, session=<M/BzRos5+tpA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<ImF0Ros5BttA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<8dh0Ros5FttA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher, session=<KBp1Ros5GNtA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share, session=<oX91Ros5JttA4lFu>
+Jul 10 04:03:25 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=64.226.81.110, lip=172.19.0.6, TLS, session=<1j12Ros5LNtA4lFu>
+Jul 10 04:04:42 imap-login: Info: Aborted login (no auth attempts in 5 secs): user=<>, rip=185.247.137.47, lip=172.19.0.6, TLS, session=<p2YJS4s5OYW594kv>
+Jul 10 04:04:43 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.172, lip=172.19.0.6, TLS handshaking: Connection closed, session=<0HUdS4s5y6q594ms>
+Jul 10 04:05:16 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.170, lip=172.19.0.6, TLS handshaking: Connection closed, session=<61oYTYs5uaS594mq>
+Jul 10 04:05:50 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.166, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141EC044:SSL routines:tls_construct_server_key_exchange:internal error, session=<bbkRT4s595a594mm>
+Jul 10 04:06:23 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.149, lip=172.19.0.6, TLS handshaking: Connection closed, session=<nK0LUYs5Pa5X7LCV>
+Jul 10 04:06:56 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.161, lip=172.19.0.6, TLS handshaking: Connection closed, session=<EQYEU4s5/+m594mh>
+Jul 10 04:07:29 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.180, lip=172.19.0.6, TLS handshaking: Connection closed, session=<Ogz/VIs50ee594m0>
+Jul 10 04:08:02 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.151, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<wYn5Vos5v99X7LCX>
+Jul 10 04:08:35 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=185.247.137.177, lip=172.19.0.6, TLS handshaking: read(size=596) failed: Connection reset by peer, session=<HNnxWIs5n7u594mx>
+Jul 10 04:09:08 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.165, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher, session=<lOvpWos5BZNX7LCl>
+Jul 10 04:09:41 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=87.236.176.148, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share, session=<H3HjXIs5w5ZX7LCU>
+Jul 10 04:30:19 imap-login: Info: Disconnected (no auth attempts in 2 secs): user=<>, rip=198.235.24.119, lip=172.19.0.6, TLS handshaking: Connection closed, session=<1+qhpos5q8vG6xh3>
+Jul 10 04:42:48 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=20.163.15.165, lip=172.19.0.6, session=<awRM04s5WNMUow+l>
+Jul 10 05:27:28 pop3-login: Info: Disconnected (no auth attempts in 16 secs): user=<>, rip=162.142.125.123, lip=172.19.0.6, TLS handshaking: Connection closed, session=<kncPc4w5nKOijn17>
+Jul 10 05:27:53 pop3-login: Info: Disconnected (no auth attempts in 16 secs): user=<>, rip=167.94.138.61, lip=172.19.0.6, TLS handshaking: Connection closed, session=<3taCdIw53uKnXoo9>
+Jul 10 05:28:15 pop3-login: Info: Disconnected (no auth attempts in 15 secs): user=<>, rip=206.168.34.223, lip=172.19.0.6, TLS handshaking: Connection closed, session=<UDLddYw56qXOqCLf>
+Jul 10 06:24:46 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=57.128.230.106, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<Ezb1P405bKs5gOZq>
+Jul 10 06:36:30 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=172.236.119.165, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<KJDsaY057qWs7Hel>
+Jul 10 06:36:30 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=172.236.119.165, lip=172.19.0.6, TLS, session=<qL3yaY05+qWs7Hel>
+Jul 10 07:29:17 imap-login: Info: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=20.46.226.34, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F10B:SSL routines:ssl3_get_record:wrong version number, session=<sXmpJo45EsUULuIi>
+Jul 10 07:31:35 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=142.93.3.113, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<VWvsLo45oISOXQNx>
+Jul 10 07:31:50 pop3-login: Info: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=142.93.3.113, lip=172.19.0.6, session=<7a3IL445KJGOXQNx>
+Jul 10 07:31:54 pop3-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=142.93.3.113, lip=172.19.0.6, TLS handshaking: SSL_accept() failed: error:1408F09C:SSL routines:ssl3_get_record:http request, session=<0YAEMI45jJiOXQNx>
+Jul 10 07:31:58 managesieve-login: Info: Disconnected: Too many invalid commands. (no auth attempts in 0 secs): user=<>, rip=142.93.3.113, lip=172.19.0.6, session=<13VIMI45cMGOXQNx>
+Jul 10 07:33:00 imap-login: Info: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=142.93.3.113, lip=172.19.0.6, session=<7I/0M445lOuOXQNx>
+Jul 10 07:56:04 imap-login: Info: Disconnected (no auth attempts in 1 secs): user=<>, rip=205.210.31.73, lip=172.19.0.6, TLS, session=<1mJzho45SvLN0h9J>
+Jul 10 08:47:37 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp
+Jul 10 09:14:18 imap-login: Info: Disconnected (no auth attempts in 0 secs): user=<>, rip=205.210.31.85, lip=172.19.0.6, session=<I3RJno85OO7N0h9V>
+Jul 10 09:15:51 master: Info: Dovecot v2.3.13 (89f716dc2) starting up for imap, pop3, sieve, lmtp

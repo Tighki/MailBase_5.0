@@ -30,7 +30,7 @@ services:
       # Mount it to the to /var/www/html on the container
       #- ./mysql/my.cnf:/etc/my.cnf:ro
       - ./mysql/data:/var/lib/mysql:rw
-        #    - ./mysql/init:/docker-entrypoint-initdb.d
+      - ./src/SQL/mysql.initial.sql:/docker-entrypoint-initdb.d/mysql.initial.sql
     environment:
       # Set the MySQL root password
       MYSQL_ROOT_PASSWORD: php_mysql_pass
